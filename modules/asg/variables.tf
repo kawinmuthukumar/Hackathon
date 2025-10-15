@@ -1,4 +1,4 @@
-# modules/asg/variables.tf
+# terraform/modules/asg/variables.tf
 variable "min_size" {}
 variable "max_size" {}
 variable "launch_template_id" {}

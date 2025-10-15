@@ -1,2 +1,2 @@
-# modules/vpc/variables.tf
+# terraform/modules/vpc/variables.tf
 variable "cidr_block" {}
