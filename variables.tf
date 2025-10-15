@@ -1,6 +1,6 @@
 # terraform/variables.tf (keep variables here)
 variable "region" {
-  default = "us-west-2"
+  default = "us-east-1"
 }
 
 variable "vpc_cidr" {
@@ -13,7 +13,7 @@ variable "instance_type" {
 
 variable "ami_id" {
   description = "AMI ID for EC2"
-  default = "ami-03aa99ddf5498ceb9"
+  default = "ami-0360c520857e3138f"
 }
 
 variable "min_size" {
