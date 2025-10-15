@@ -13,7 +13,7 @@ variable "instance_type" {
 
 variable "ami_id" {
   description = "AMI ID for EC2"
-  default = "ami-05996ba50e0ff0068"
+  default = "ami-03aa99ddf5498ceb9"
 }
 
 variable "min_size" {
