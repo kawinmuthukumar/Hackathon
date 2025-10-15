@@ -4,14 +4,14 @@ resource "aws_vpc" "main" {
 }
 resource "aws_subnet" "public1" {
   vpc_id     = aws_vpc.main.id
-  cidr_block = cidrsubnet(var.cidr_block, 8, 1)
+  cidr_block = cidrsubnet(var.cidr_block, 8, 10)
   availability_zone = "${var.region}a" # e.g., us-west-2a
   map_public_ip_on_launch = true
 }
 
 resource "aws_subnet" "public2" {
   vpc_id     = aws_vpc.main.id
-  cidr_block = cidrsubnet(var.cidr_block, 8, 2)
+  cidr_block = cidrsubnet(var.cidr_block, 8, 11)
   availability_zone = "${var.region}b" # e.g., us-west-2b
   map_public_ip_on_launch = true
 }
