@@ -1,4 +1,4 @@
-# terraform/variables.tf
+# terraform/variables.tf (keep variables here)
 variable "region" {
   default = "us-west-2"
 }
@@ -8,12 +8,12 @@ variable "vpc_cidr" {
 }
 
 variable "instance_type" {
-  default = "t3.medium"
+  default = "t3.micro"
 }
 
 variable "ami_id" {
   description = "AMI ID for EC2"
-  default = "ami-0abcdef1234567890" # Replace with a valid AMI ID for your region
+  default = "ami-05996ba50e0ff0068"
 }
 
 variable "min_size" {
@@ -26,5 +26,5 @@ variable "max_size" {
 
 variable "bucket_name" {
   description = "S3 bucket name"
-  default = "my-video-bucket-382345110959" # Replace with a unique name
+  default = "my-video-bucket-382345110959"
 }
