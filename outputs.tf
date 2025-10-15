@@ -8,9 +8,7 @@ output "ec2_instance_id" {
 output "asg_name" {
   value = module.asg.asg_name
 }
-output "s3_bucket" {
-  value = module.s3.bucket_name
-}
+
 output "alb_dns" {
   value = module.alb.dns_name
 }

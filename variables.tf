@@ -24,7 +24,3 @@ variable "max_size" {
   default = 3
 }
 
-variable "bucket_name" {
-  description = "S3 bucket name"
-  default = "my-video-bucket-382345110959"
-}
